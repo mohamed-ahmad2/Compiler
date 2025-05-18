@@ -4,7 +4,7 @@
 
 This project implements a compiler for a simple graph-like language. It processes input strings representing graph structures such as:
 
-```
+```plaintext
 (41 55)-(44 red)-(6 8)
 ```
 
@@ -34,7 +34,7 @@ It uses a context-free grammar and follows the LL(1) predictive parsing strategy
 
 * **`Grammer.txt`**:
 
-```txt
+```plaintext
 <Graph> -> <Tuple><G>
 <G> -> -<Graph> | $
 <Tuple> -> (int space<T>)
@@ -43,13 +43,13 @@ It uses a context-free grammar and follows the LL(1) predictive parsing strategy
 
 * **`input.txt`**: Input to be compiled, e.g.,
 
-```
+```plaintext
 (41 55)-(44 red)-(6 8)
 ```
 
 * **`output.txt`**: Tokenized form of the input, e.g.,
 
-```
+```plaintext
 (
 int
 space
@@ -71,7 +71,7 @@ int
 
 * **`First.txt`**:
 
-```
+```plaintext
 Graph    (
 G        - $
 Tuple    (
@@ -80,7 +80,7 @@ T        int color
 
 * **`Follow.txt`**:
 
-```
+```plaintext
 Graph    $
 G        $
 Tuple    - $
@@ -89,7 +89,7 @@ T        )
 
 * **`Table.txt`**:
 
-```
+```plaintext
 Graph    (       -> Tuple G
 G        -       -> - Graph
          $       -> ε
@@ -207,9 +207,3 @@ int main() {
 * Support more powerful parsing strategies (e.g., LR).
 * Improve scanner flexibility.
 * Add semantic analysis phase.
-
----
-
-## License
-
-This project is unlicensed. You are free to use, modify, and distribute it.
