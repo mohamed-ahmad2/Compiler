@@ -1,0 +1,4 @@
+<Graph> -> <Tuple><G>
+<G> -> -<Graph> | $
+<Tuple> -> (int space<T>)
+<T> -> int | color

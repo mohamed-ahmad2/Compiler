@@ -1,0 +1,6 @@
+Graph ( Tuple G 
+G - - Graph 
+G $  
+Tuple ( ( int space T ) 
+T int int 
+T color color 

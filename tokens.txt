@@ -1,0 +1,7 @@
+q0 - -
+q1 ( (
+q2 [0-9] int
+q3 space space
+q4 [0-9] int
+q4 [a-z] color
+q5 ) )

@@ -1,0 +1,17 @@
+(
+int
+space
+int
+)
+-
+(
+int
+space
+color
+)
+-
+(
+int
+space
+int
+)

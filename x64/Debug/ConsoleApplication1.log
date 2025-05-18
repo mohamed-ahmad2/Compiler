@@ -1,0 +1,13 @@
+﻿  ConsoleApplication1.cpp
+E:\Dot Net\ConsoleApplication1\ConsoleApplication1\Scanner.h(159,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+E:\Dot Net\ConsoleApplication1\ConsoleApplication1\ParserQ6New.h(231,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+E:\Dot Net\ConsoleApplication1\ConsoleApplication1\ParserQ6New.h(260,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+  Follow.cpp
+  Generating Code...
+  ConsoleApplication1.vcxproj -> E:\Dot Net\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
